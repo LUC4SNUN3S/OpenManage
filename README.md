@@ -42,11 +42,11 @@ Aqui estão os principais endpoints da API e suas funcionalidades:
   ```json
   {
 	"role": "Programador Back end",
-	"company":"evocorp",
+	"company":"any company",
 	"location":"São miguel",
 	"remote":true,
 	"salary":520000,
-	"link":"evocorp.jobs.com.br"
+	"link":"company.jobs.com.br"
   }
 ### 2. Listar todas as vagas
 
@@ -64,11 +64,11 @@ Aqui estão os principais endpoints da API e suas funcionalidades:
   ```json
   {
 	"role": "Programador Back end",
-	"company":"evocorp",
+	"company":"any company",
 	"location":"São miguel",
 	"remote":true,
 	"salary":520000,
-	"link":"evocorp.jobs.com.br"
+	"link":"company.jobs.com.br"
   }
 
 ## 4. Remover uma Vaga
@@ -85,7 +85,7 @@ Aqui estão os principais endpoints da API e suas funcionalidades:
 1. **Clone o repositório:**
 
    ```bash
-   git clone https://github.com/seu-usuario/OpenManage-API.git
+   git clone https://github.com/LUC4SNUN3S/OpenManage-API.git
    
 2. **Navegue até o diretório do projeto:**
     ```bash
