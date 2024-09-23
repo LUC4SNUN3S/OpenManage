@@ -17,9 +17,9 @@ A **OpenManage-API** oferece as seguintes funcionalidades para gerenciamento de 
 
 - **Linguagem:** Go (Golang)
 - **Framework:** Gin Gonic - para criação e gerenciamento de rotas.
-- **Banco de Dados:** Integração com um banco de dados (especificar o usado, como SQLite, PostgreSQL, MySQL, etc.)
-- **ORM:** (se aplicável, por exemplo, GORM)
-- **Gerenciamento de Dependências:** Go Modules
+- **SQLite** Integração com um banco de dados
+- **ORM: GORM**
+- **Go Modules**
 
 ## Estrutura do Projeto
 
