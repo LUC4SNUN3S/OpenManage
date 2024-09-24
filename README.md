@@ -33,6 +33,8 @@ A **OpenManage-API** oferece as seguintes funcionalidades para gerenciamento de 
 
 Aqui estão os principais endpoints da API e suas funcionalidades:
 
+lembrando que antes dos endpoints, é necessario o prefixo `api/v1`
+
 ### 1. Criar uma nova vaga
 
 - **Método:** `POST`
@@ -54,10 +56,17 @@ Aqui estão os principais endpoints da API e suas funcionalidades:
 - **Endpoint:** `/openings`
 - **Descrição:** Retorna uma lista de todas as vagas cadastradas.
 
-### 3. Atualizar uma vaga existente
+### 3. Detalhes de uma vaga
+
+- **Método:** `GET`
+- **Endpoint:** `/opening/{id}`
+- **Descrição:** Lista as informações de uma vaga especifica, por ID.
+- **Parâmetro de Rota:** `id` - ID da vaga a ser detalhada.
+
+### 4. Atualizar uma vaga existente
 
 - **Método:** `PUT`
-- **Endpoint:** `/openings/{id}`
+- **Endpoint:** `/opening/{id}`
 - **Descrição:** Atualiza os detalhes de uma vaga específica.
 - **Parâmetro de Rota:** `id` - ID da vaga a ser atualizada.
 - **Corpo da Requisição:**
@@ -71,10 +80,10 @@ Aqui estão os principais endpoints da API e suas funcionalidades:
 	"link":"company.jobs.com.br"
   }
 
-## 4. Remover uma Vaga
+## 5. Remover uma Vaga
 
 **Método:** `DELETE`  
-**Endpoint:** `/openings/{id}`  
+**Endpoint:** `/opening/{id}`  
 **Descrição:** Remove uma vaga do sistema.
 
 **Parâmetro de Rota:**  
