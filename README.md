@@ -110,7 +110,7 @@ lembrando que antes dos endpoints, é necessario o prefixo `api/v1`
    ```bash
    go run main.go
 6. Acesse a API:
-   Acesse `http://localhost:8080`para começar a interagir com a API.
+   Acesse `http://localhost:3333`para começar a interagir com a API.
   
 
          
